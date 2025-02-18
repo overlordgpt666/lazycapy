@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LazyCapy - Crypto's Chillest Capybara</title>
+    <style>
+        body {
+            font-family: 'Comic Neue', cursive;
+            background: linear-gradient(to right, #83E8BA, #B2FFA6);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            padding: 40px;
+            background: url('https://i.imgur.com/3sXhJ9c.png') center/contain no-repeat;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 4em;
+            color: #2A5C3C;
+            text-shadow: 2px 2px #FFD700;
+            animation: bounce 2s infinite;
+        }
+
+        .capy-img {
+            width: 300px;
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+
+        .capy-img:hover {
+            transform: rotate(10deg);
+        }
+
+        .meme-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .meme-card {
+            background: white;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        .meme-text {
+            font-size: 1.2em;
+            margin: 15px 0;
+            color: #2A5C3C;
+        }
+
+        .rainbow-text {
+            background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+            -webkit-background-clip: text;
+            color: transparent;
+            font-weight: bold;
+        }
+
+        .floating-coconut {
+            position: absolute;
+            animation: float 3s infinite ease-in-out;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px) rotate(10deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🦝 LAZY CAPY 🚀</h1>
+            <img src="https://i.imgur.com/Z1Dz2Gv.png" class="capy-img" alt="Chill Capybara">
+            <div class="floating-coconut" style="top: 50px; left: 100px;">🥥</div>
+            <div class="floating-coconut" style="top: 80px; right: 150px;">🥥</div>
+        </div>
+
+        <div class="meme-section">
+            <div class="meme-card">
+                <img src="https://i.imgur.com/5VpQ3B3.png" width="200" alt="Capy Meme 1">
+                <p class="meme-text">When you HODL through the dip</p>
+                <div class="rainbow-text">CHILL LEVEL: MAXIMUM</div>
+            </div>
+
+            <div class="meme-card">
+                <img src="https://i.imgur.com/r9LbCwB.png" width="200" alt="Capy Meme 2">
+                <p class="meme-text">Me checking the market vs me not caring</p>
+                <div class="rainbow-text">LAZY MODE ACTIVATED</div>
+            </div>
+
+            <div class="meme-card">
+                <img src="https://i.imgur.com/mXwFjzQ.png" width="200" alt="Capy Meme 3">
+                <p class="meme-text">When someone says "work"</p>
+                <div class="rainbow-text">NOPE.avi</div>
+            </div>
+        </div>
+
+        <div class="features" style="margin-top: 40px; text-align: center;">
+            <h2 style="color: #2A5C3C;">Why LazyCapy?</h2>
+            <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+                <div style="background: white; padding: 20px; border-radius: 15px;">
+                    🚀 Moon? | 🦝 Community DAO | 🥥 Random Airdrops
+                </div>
+                <div style="background: white; padding: 20px; border-radius: 15px;">
+                    🎪 Capy Carnival | 🖼️ NFT Pool Parties | 😎 Chill Vibes
+                </div>
+            </div>
+        </div>
+
+        <footer style="margin-top: 40px; text-align: center; padding: 20px;">
+            <p>Join the chill revolution:</p>
+            <div style="font-size: 24px;">
+                <a href="#" style="color: #2A5C3C;">🐦</a>
+                <a href="#" style="color: #2A5C3C;">💬</a>
+                <a href="#" style="color: #2A5C3C;">🦝</a>
+            </div>
+            <p style="margin-top: 20px; font-size: 0.8em;">Disclaimer: This is 99% memes and 1% serious. Do your own research (or don't, we're too lazy to care)</p>
+        </footer>
+    </div>
+</body>
+</html>
